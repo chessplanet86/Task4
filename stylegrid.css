@@ -1,0 +1,440 @@
+.container{
+    display: grid;
+    grid-template-columns: 20px  50px  50px 50px 50px 50px  50px 50px 50px 20px;
+    grid-template-rows:    20px  50px  50px 50px 50px 50px  50px 50px 50px 20px;
+}
+
+
+.RB8 {
+    grid-row-start: 10;
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.RB7 {
+    grid-row-start: 10;
+    grid-column-start: 3;
+    text-align: center;
+}
+
+.RB6 {
+    grid-row-start: 10;
+    grid-column-start: 4;
+    text-align: center;
+}
+
+.RB5 {
+    grid-row-start: 10;
+    grid-column-start: 5;
+    text-align: center;
+}
+
+.RB4 {
+    grid-row-start: 10;
+    grid-column-start: 6;
+    text-align: center;
+}
+
+.RB3 {
+    grid-row-start: 10;
+    grid-column-start: 7;
+    text-align: center;
+}
+
+.RB2 {
+    grid-row-start: 10;
+    grid-column-start: 8;
+    text-align: center;
+}
+
+.RB1 {
+    grid-row-start: 10;
+    grid-column-start: 9;
+    text-align: center;
+}
+
+/* Обозначение клеток */
+.LC8 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC7 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC6 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC5 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC4 {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC3 {
+    grid-row-start: 7;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC2 {
+    grid-row-start: 8;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LC1 {
+    grid-row-start: 9;
+    grid-column-start: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Ряд А */
+.A8 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.A7 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.A6 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+.A5 {
+    grid-row-start: 5;
+    grid-column-start: 2;
+}
+
+.A4 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+}
+
+.A3 {
+    grid-row-start: 7;
+    grid-column-start: 2;
+}
+
+.A2 {
+    grid-row-start: 8;
+    grid-column-start: 2;
+}
+
+.A1 {
+    grid-row-start: 9;
+    grid-column-start: 2;
+}
+/* Ряд B */
+.B8 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.B7 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.B6 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+
+.B5 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+.B4 {
+    grid-row-start: 6;
+    grid-column-start: 3;
+}
+
+.B3 {
+    grid-row-start: 7;
+    grid-column-start: 3;
+}
+
+.B2 {
+    grid-row-start: 8;
+    grid-column-start: 3;
+}
+
+.B1 {
+    grid-row-start: 9;
+    grid-column-start: 3;
+}
+
+/* Ряд С */
+
+.C8 {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.C7 {
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+
+.C6 {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.C5 {
+    grid-row-start: 5;
+    grid-column-start: 4;
+}
+
+.C4 {
+    grid-row-start: 6;
+    grid-column-start: 4;
+}
+
+.C3 {
+    grid-row-start: 7;
+    grid-column-start: 4;
+}
+
+.C2 {
+    grid-row-start: 8;
+    grid-column-start: 4;
+}
+
+.C1 {
+    grid-row-start: 9;
+    grid-column-start: 4;
+}
+
+
+
+/* Ряд D */
+
+.D8 {
+    grid-row-start: 2;
+    grid-column-start: 5;
+}
+
+.D7 {
+    grid-row-start: 3;
+    grid-column-start: 5;
+}
+
+.D6 {
+    grid-row-start: 4;
+    grid-column-start: 5;
+}
+
+.D5 {
+    grid-row-start: 5;
+    grid-column-start: 5;
+}
+
+.D4 {
+    grid-row-start: 6;
+    grid-column-start: 5;
+}
+
+.D3 {
+    grid-row-start: 7;
+    grid-column-start: 5;
+}
+
+.D2 {
+    grid-row-start: 8;
+    grid-column-start: 5;
+}
+
+.D1 {
+    grid-row-start: 9;
+    grid-column-start: 5;
+}
+/* Ряд Е */
+.E8 {
+    grid-row-start: 2;
+    grid-column-start: 6;
+}
+
+.E7 {
+    grid-row-start: 3;
+    grid-column-start: 6;
+}
+
+.E6 {
+    grid-row-start: 4;
+    grid-column-start: 6;
+}
+
+.E5 {
+    grid-row-start: 5;
+    grid-column-start: 6;
+}
+
+.E4 {
+    grid-row-start: 6;
+    grid-column-start: 6;
+}
+
+.E3 {
+    grid-row-start: 7;
+    grid-column-start: 6;
+}
+
+.E2 {
+    grid-row-start: 8;
+    grid-column-start: 6;
+}
+
+.E1 {
+    grid-row-start: 9;
+    grid-column-start: 6;
+}
+/* Ряд F */
+.F8 {
+    grid-row-start: 2;
+    grid-column-start: 7;
+}
+
+.F7 {
+    grid-row-start: 3;
+    grid-column-start: 7;
+}
+
+.F6 {
+    grid-row-start: 4;
+    grid-column-start: 7;
+}
+
+.F5 {
+    grid-row-start: 5;
+    grid-column-start: 7;
+}
+
+.F4 {
+    grid-row-start: 6;
+    grid-column-start: 7;
+}
+
+.F3 {
+    grid-row-start: 7;
+    grid-column-start: 7;
+}
+
+.F2 {
+    grid-row-start: 8;
+    grid-column-start: 7;
+}
+
+.F1 {
+    grid-row-start: 9;
+    grid-column-start: 7;
+}
+/* Ряд G */
+.G8 {
+    grid-row-start: 2;
+    grid-column-start: 8;
+}
+
+.G7 {
+    grid-row-start: 3;
+    grid-column-start: 8;
+}
+
+.G6 {
+    grid-row-start: 4;
+    grid-column-start: 8;
+}
+
+.G5 {
+    grid-row-start: 5;
+    grid-column-start: 8;
+}
+
+.G4 {
+    grid-row-start: 6;
+    grid-column-start: 8;
+}
+
+.G3 {
+    grid-row-start: 7;
+    grid-column-start: 8;
+}
+
+.G2 {
+    grid-row-start: 8;
+    grid-column-start: 8;
+}
+
+.G1 {
+    grid-row-start: 9;
+    grid-column-start: 8;
+}
+
+/* Ряд H */
+
+.H8 {
+    grid-row-start: 2;
+    grid-column-start: 9;
+}
+
+.H7 {
+    grid-row-start: 3;
+    grid-column-start: 9;
+}
+
+.H6 {
+    grid-row-start: 4;
+    grid-column-start: 9;
+}
+
+.H5 {
+    grid-row-start: 5;
+    grid-column-start: 9;
+}
+
+.H4 {
+    grid-row-start: 6;
+    grid-column-start: 9;
+}
+
+.H3 {
+    grid-row-start: 7;
+    grid-column-start: 9;
+}
+
+.H2 {
+    grid-row-start: 8;
+    grid-column-start: 9;
+}
+
+.H1 {
+    grid-row-start: 9;
+    grid-column-start: 9;
+}
