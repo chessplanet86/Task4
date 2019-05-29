@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>***Задание 4***</title>
+    <!-- Подключение Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script async src="task_4.js"></script>
+    <meta charset="UTF-8">
+    <link href="stylegrid.css" rel="stylesheet">
+    <link href="color.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="A1 black" @click='getCoordinate($event)' id="A1"></div>
+            <div class="A2 white" @click='getCoordinate($event)' id="A2"></div>
+            <div class="A3 black" @click='getCoordinate($event)' id="A3"></div>
+            <div class="A4 white" @click='getCoordinate($event)' id="A4"></div>
+            <div class="A5 black" @click='getCoordinate($event)' id="A5"></div>
+            <div class="A6 white" @click='getCoordinate($event)' id="A6"></div>
+            <div class="A7 black" @click='getCoordinate($event)' id="A7"></div>
+            <div class="A8 white" @click='getCoordinate($event)' id="A8"></div>
+            <div class="B1 white" @click='getCoordinate($event)' id="B1"></div>
+            <div class="B2 black" @click='getCoordinate($event)' id="B2"></div>
+            <div class="B3 white" @click='getCoordinate($event)' id="B3"></div>
+            <div class="B4 black" @click='getCoordinate($event)' id="B4"></div>
+            <div class="B5 white" @click='getCoordinate($event)' id="B5"></div>
+            <div class="B6 black" @click='getCoordinate($event)' id="B6"></div>
+            <div class="B7 white" @click='getCoordinate($event)' id="B7"></div>
+            <div class="B8 black" @click='getCoordinate($event)' id="B8"></div>
+            <div class="C1 black" @click='getCoordinate($event)' id="C1"></div>
+            <div class="C2 white" @click='getCoordinate($event)' id="C2"></div>
+            <div class="C3 black" @click='getCoordinate($event)' id="C3"></div>
+            <div class="C4 white" @click='getCoordinate($event)' id="C4"></div>
+            <div class="C5 black" @click='getCoordinate($event)' id="C5"></div>
+            <div class="C6 white" @click='getCoordinate($event)' id="C6"></div>
+            <div class="C7 black" @click='getCoordinate($event)' id="C7"></div>
+            <div class="C8 white" @click='getCoordinate($event)' id="C8"></div>
+            <div class="D1 white" @click='getCoordinate($event)' id="D1"></div>
+            <div class="D2 black" @click='getCoordinate($event)' id="D2"></div>
+            <div class="D3 white" @click='getCoordinate($event)' id="D3"></div>
+            <div class="D4 black" @click='getCoordinate($event)' id="D4"></div>
+            <div class="D5 white" @click='getCoordinate($event)' id="D5"></div>
+            <div class="D6 black" @click='getCoordinate($event)' id="D6"></div>
+            <div class="D7 white" @click='getCoordinate($event)' id="D7"></div>
+            <div class="D8 black" @click='getCoordinate($event)' id="D8"></div>
+            <div class="E1 black" @click='getCoordinate($event)' id="E1"></div>
+            <div class="E2 white" @click='getCoordinate($event)' id="E2"></div>
+            <div class="E3 black" @click='getCoordinate($event)' id="E3"></div>
+            <div class="E4 white" @click='getCoordinate($event)' id="E4"></div>
+            <div class="E5 black" @click='getCoordinate($event)' id="E5"></div>
+            <div class="E6 white" @click='getCoordinate($event)' id="E6"></div>
+            <div class="E7 black" @click='getCoordinate($event)' id="E7"></div>
+            <div class="E8 white" @click='getCoordinate($event)' id="E8"></div>
+            <div class="F1 white" @click='getCoordinate($event)' id="F1"></div>
+            <div class="F2 black" @click='getCoordinate($event)' id="F2"></div>
+            <div class="F3 white" @click='getCoordinate($event)' id="F3"></div>
+            <div class="F4 black" @click='getCoordinate($event)' id="F4"></div>
+            <div class="F5 white" @click='getCoordinate($event)' id="F5"></div>
+            <div class="F6 black" @click='getCoordinate($event)' id="F6"></div>
+            <div class="F7 white" @click='getCoordinate($event)' id="F7"></div>
+            <div class="F8 black" @click='getCoordinate($event)' id="F8"></div>
+            <div class="G1 black" @click='getCoordinate($event)' id="G1"></div>
+            <div class="G2 white" @click='getCoordinate($event)' id="G2"></div>
+            <div class="G3 black" @click='getCoordinate($event)' id="G3"></div>
+            <div class="G4 white" @click='getCoordinate($event)' id="G4"></div>
+            <div class="G5 black" @click='getCoordinate($event)' id="G5"></div>
+            <div class="G6 white" @click='getCoordinate($event)' id="G6"></div>
+            <div class="G7 black" @click='getCoordinate($event)' id="G7"></div>
+            <div class="G8 white" @click='getCoordinate($event)' id="G8"></div>
+            <div class="H1 white" @click='getCoordinate($event)' id="H1"></div>
+            <div class="H2 black" @click='getCoordinate($event)' id="H2"></div>
+            <div class="H3 white" @click='getCoordinate($event)' id="H3"></div>
+            <div class="H4 black" @click='getCoordinate($event)' id="H4"></div>
+            <div class="H5 white" @click='getCoordinate($event)' id="H5"></div>
+            <div class="H6 black" @click='getCoordinate($event)' id="H6"></div>
+            <div class="H7 white" @click='getCoordinate($event)' id="H7"></div>
+            <div class="H8 black" @click='getCoordinate($event)' id="H8"></div>
+            <div class="RB1">H</div>
+            <div class="RB2">G</div>
+            <div class="RB3">F</div>
+            <div class="RB4">E</div>
+            <div class="RB5">D</div>
+            <div class="RB6">C</div>
+            <div class="RB7">B</div>
+            <div class="RB8">A</div>
+            <div class="LC1">1</div>
+            <div class="LC2">2</div>
+            <div class="LC3">3</div>
+            <div class="LC4">4</div>
+            <div class="LC5">5</div>
+            <div class="LC6">6</div>
+            <div class="LC7">7</div>
+            <div class="LC8">8</div>
+        </div>
+    </div>
+</body>
+
+</html>
